@@ -42,7 +42,6 @@ class ProfileController extends Controller
 
     public function updateProfile(AddressRequest $request)
     {
-        Log::debug($request);
         if(Profile::where('user_id','=', $request->id)->first()){
             $form = Profile::where('user_id','=', $request->id)->first();
         }
@@ -53,7 +52,6 @@ class ProfileController extends Controller
                 $form->image = 'default_icon.png';
             }
         }
-        Log::debug($form);
         $form->name = $request->name;
         if(!empty($request->image)) {
             $image_path = $request->file('image')->store('public/images');

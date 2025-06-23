@@ -12,7 +12,7 @@
 <body>
   <header class="header">
     <div class="header__contents">
-      <a href="/">
+      <a class="logo" href="/">
           <div class="logo__svg" style="background-image: url('{{ asset('storage/images/logo.svg') }}')">
           </div>
       </a>
