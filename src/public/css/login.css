@@ -1,0 +1,40 @@
+
+.login__content-base {
+    margin: 10% auto;
+    width: 50%;
+}
+
+.form__group {
+    margin: 5% auto;
+}
+
+.form__group-title {
+    font-size: 20px;
+    text-align: left;
+}
+
+.form__input--text input {
+    width: 100%;
+    padding: 10px;
+}
+
+.form__button button{
+    margin: 10% auto 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff5555;
+    color: #fff;
+    font-size: 26px;
+    border-radius: 5px;
+}
+
+.login__register_link {
+    display: block;
+    margin: 10% auto;
+}
+
+.login__register_link:link,
+.login__register_link:visited,
+.login__register_link:active {
+    color: #0073CC;
+}

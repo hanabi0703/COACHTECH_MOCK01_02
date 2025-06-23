@@ -1,0 +1,106 @@
+.search-form {
+    width: 40%;
+    margin: auto;
+}
+
+.search-form__item {
+    margin: auto;
+}
+
+.search-form__item input {
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.index__content {
+    width: 90%;
+    margin: auto;
+}
+
+.tab__list {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+    border-bottom: solid 1px #000;
+}
+
+.tab__title {
+    font-size: 24px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.tab__title.active {
+    color: #FF0000;
+    font-weight: bold;
+}
+
+.tab__panel {
+    display: none;
+}
+
+.tab__panel.active {
+    display: block;
+}
+
+.products-list__item img {
+    width: 100%;
+    height: 21vw;
+    object-fit: contain;
+}
+
+.products-list__item {
+    position: relative;
+}
+
+.product__sold {
+    font-size: 26px;
+    position: absolute;
+    color: #fff;
+    top: 5%;
+}
+
+.products-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.products-list li {
+    list-style: none;
+    width: 23%;
+    margin: 5px;
+}
+
+.products-list_text {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.products-list :nth-child(3n) {
+    margin-right: 0px;
+}
+
+.products-list:after {
+    content: "";
+    display: block;
+    width: 23%;
+    height: 0;
+}
+
+.products-list:before {
+    content: "";
+    display: block;
+    width: 23%;
+    height: 0;
+    order: 1;
+}
+
+.blur {
+    filter: brightness(50%);
+}
