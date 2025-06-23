@@ -3,7 +3,7 @@
 ## Docker ビルド
 
 ```
-git clone https://github.com/hanabi0703/COACHTECH_MOCK01.git
+git clone https://github.com/hanabi0703/COACHTECH_MOCK01_02.git
 ```
 
 docker-compose.yml ファイルの存在する階層へ移動し以下を実行
